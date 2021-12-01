@@ -1,0 +1,8 @@
+Сделать контракт который будет менять указанный токен, с пачки указанных адресов, на другой токен на юнисвапе.
+
+Address 1 100 Token1, 0 Token 2
+Address 2 200 Token1, 0 Token 2
+
+после обмена становится
+Address 1 0 Token1, X Token 2
+Address 2 0 Token1, Y Token 2
