@@ -1,7 +1,7 @@
 {
   "name": "uniswap-token-exchange",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,6 +23,10 @@
     "chai": "^4.2.0",
     "ethereum-waffle": "^3.0.0",
     "ethers": "^5.0.0",
-    "hardhat": "^2.7.0"
+    "hardhat": "^2.7.0",
+    "solc-0.6": "npm:solc@^0.6.0"
+  },
+  "directories": {
+    "test": "test"
   }
 }
